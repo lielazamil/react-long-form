@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#long-form {
+  background-color: rgb(51, 0, 170);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: opx 10px 10px rgba(0, 0, 0, 0.4);
+  width: 50%;
+}
+label {
+  margin-top: 10px;
+}
+input,
+select {
+  width: 100%;
+  border-radius: none;
+}
+#submit-button {
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(211, 0, 127);
+}
+
+hr {
+  width: 100%;
+}
+#modal {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal-content {
+  background-color: white;
+  color: black;
+  width: 90%;
+  color: green;
+}
+.disabled {
+  background-color: gray !important;
+}
